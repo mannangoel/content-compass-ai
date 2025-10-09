@@ -28,6 +28,17 @@ A full-stack AI Content Generation Web Application using Next.js + TypeScript + 
 
 ## Getting Started
 
+To get started with this project, you'll first need to clone the repository and then follow the setup instructions.
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/mannangoel/content-compass.git
+cd content-compass
+```
+
+### Install Dependencies and Run
+
 The project includes a `package.json` file with all required dependencies. To get started on any device:
 
 1. Navigate to the Project 3 directory:
