@@ -41,24 +41,18 @@ cd content-compass-ai
 
 The project includes a `package.json` file with all required dependencies. To get started on any device:
 
-1. Navigate to the Project 3 directory:
-   ```bash
-   cd Project\ 3
-   ```
-   *Note: On Unix-based systems (macOS, Linux), you might need to use `cd Project/3` instead.*
-
-2. Install dependencies using the package.json file:
+1. Install dependencies using the package.json file:
    ```bash
    npm install
    ```
    *This command works on Windows, macOS, and Linux systems.*
 
-3. Run the development server:
+2. Run the development server:
    ```bash
    npm run dev
    ```
 
-4. Open [http://localhost:5181](http://localhost:5181) in your browser
+3. Open [http://localhost:5181](http://localhost:5181) in your browser
 
 *Note: Make sure you have Node.js and npm installed on your system before running these commands.*
 
@@ -66,9 +60,9 @@ The project includes a `package.json` file with all required dependencies. To ge
 
 ```
 ├── components/
+│   ├── BoxReveal.tsx
 │   ├── ContentGenerator.tsx
 │   ├── Input.tsx
-│   ├── BoxReveal.tsx
 │   └── Layout.tsx
 ├── lib/
 │   └── utils.ts
