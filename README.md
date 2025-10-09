@@ -28,17 +28,28 @@ A full-stack AI Content Generation Web Application using Next.js + TypeScript + 
 
 ## Getting Started
 
-1. Install dependencies:
+The project includes a `package.json` file with all required dependencies. To get started on any device:
+
+1. Navigate to the Project 3 directory:
+   ```bash
+   cd Project\ 3
+   ```
+   *Note: On Unix-based systems (macOS, Linux), you might need to use `cd Project/3` instead.*
+
+2. Install dependencies using the package.json file:
    ```bash
    npm install
    ```
+   *This command works on Windows, macOS, and Linux systems.*
 
-2. Run the development server:
+3. Run the development server:
    ```bash
    npm run dev
    ```
 
-3. Open [http://localhost:5181](http://localhost:5181) in your browser
+4. Open [http://localhost:5181](http://localhost:5181) in your browser
+
+*Note: Make sure you have Node.js and npm installed on your system before running these commands.*
 
 ## Project Structure
 
@@ -61,7 +72,13 @@ A full-stack AI Content Generation Web Application using Next.js + TypeScript + 
 ├── styles/
 │   └── globals.css
 ├── public/
-└── package.json
+│   └── favicon.ico
+├── package.json
+├── tsconfig.json
+├── next.config.js
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
 ```
 
 ## API Integration
