@@ -33,7 +33,7 @@ To get started with this project, you'll first need to clone the repository and 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/mannangoel/content-compass.git
+git clone https://github.com/mannangoel/content-compass-ai.git
 cd content-compass
 ```
 
