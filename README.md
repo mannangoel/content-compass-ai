@@ -86,17 +86,3 @@ The project includes a `package.json` file with all required dependencies. To ge
 └── README.md
 ```
 
-## API Integration
-
-The application includes a mock API endpoint at `/api/generate`. To use a real AI service like OpenAI:
-
-1. Add your API key to `.env.local`:
-   ```
-   OPENAI_API_KEY=your_openai_api_key
-   ```
-
-2. Uncomment the OpenAI API code in `pages/api/generate.ts`
-
-## Deployment
-
-The application can be deployed to Vercel, Netlify, or any other platform that supports Next.js.
